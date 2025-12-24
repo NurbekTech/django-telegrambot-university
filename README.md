@@ -1,0 +1,1 @@
+# django-telegrambot-university
