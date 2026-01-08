@@ -34,4 +34,4 @@ async def menu_handler(message: Message):
         await message.answer("Пожалуйста, выберите пункт из меню 👇")
         return
 
-    await message.answer(menu["content"])
+    await message.answer(menu["content"], parse_mode="HTML")
